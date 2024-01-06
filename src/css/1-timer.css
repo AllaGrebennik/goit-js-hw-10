@@ -1,0 +1,109 @@
+@import url('flatpickr/dist/flatpickr.min.css');
+@import url('izitoast/dist/css/iziToast.min.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.timer-box {
+  display: flex;
+  width: 1440px;
+  height: 496px;
+  padding: 36px 929px 316px 156px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  background: #fff;
+}
+
+.input-time {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+#datetime-picker {
+  width: 272px;
+  height: 40px;
+  padding-left: 16px;
+  border-radius: 4px;
+  background: #fff;
+  border: 1px solid #808080;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  outline: none;
+}
+
+#datetime-picker:hover {
+  border: 1px solid #000;
+}
+
+#datetime-picker:active {
+  border: 1px solid #4e75ff;
+}
+
+#datetime-picker:disabled {
+  background: #fafafa;
+  color: #808080;
+}
+
+.input-time-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.input-time-btn:disabled {
+  background: #cfcfcf;
+  color: #989898;
+}
+
+.input-time-btn:hover {
+  background: #6c8cff;
+  color: #fff;
+}
+
+.timer {
+  display: flex;
+  align-items: flex-start;
+  width: 346px;
+  gap: 24px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc((100% - 72px) / 4);
+}
+
+.value {
+  color: #2e2f42;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px; /* 120% */
+  letter-spacing: 1.6px;
+}
+
+.label {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
